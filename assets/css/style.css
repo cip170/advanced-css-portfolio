@@ -14,13 +14,14 @@
     top: 0;
     width: 100%;
     padding: 20px 0;
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: rgba(199, 208, 240, 0.921);
     color: rgb(105, 102, 180);
     z-index: 1;
 }
 
-/*changes the h1 element (charlotte) of the header*/
+/*changes the h1 element (charlotte) of the header & gives it a pointer property
+so user can click 'charlotte philipps' to get back to top of page*/
 .header h1 {
     cursor: pointer;
     display: inline-block;
@@ -36,12 +37,12 @@
     padding-top: 10px;
     margin-right: 20px;
     float: right;
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 /*removes the automatic bullet points on the li elements*/
-.header div ul li {
+.header div ul {
     list-style-type: none;
 }
 
@@ -56,4 +57,57 @@ a {
     color: rgb(110, 107, 178);
     text-decoration: none;
     border-bottom: 2px solid;
+}
+
+p {
+    display: block;
+    margin-block-start: -6em;
+    margin-block-end: 1em;
+    margin-inline-start: 180px;
+    margin-inline-end: 0px;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/background-image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+}
+
+/*creates the different sections and introduces basic stylings*/
+.about-me,
+.work,
+.contact-me {
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgba(199, 208, 240, 0.921);
+    color: rgb(110, 107, 178);
+}
+
+/*enlarging style & creating border for h2 text*/
+.about-me h2,
+.work h2,
+.contact-me h2 {
+    width: 150px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    border-right: 3px solid rgb(110, 107, 178);
+}
+
+/*style for footer element at bottom of page*/
+.footer {
+    padding: 30px 0;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
