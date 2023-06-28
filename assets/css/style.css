@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+/*changes the header containing the ul elements so it is fixed at the top of the page*/
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: rgba(199, 208, 240, 0.921);
+    color: rgb(105, 102, 180);
+    z-index: 1;
+}
+
+/*changes the h1 element (charlotte) of the header*/
+.header h1 {
+    cursor: pointer;
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    font-size: 30px;
+    color: rgba(105, 102, 180);
+    background-color: rgba(154, 170, 231, 0.65);
+}
+
+/*moves the div section under header to the right side of the element*/
+.header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+}
+
+/*removes the automatic bullet points on the li elements*/
+.header div ul li {
+    list-style-type: none;
+}
+
+/*moves the li elements next to each other at a distance of 25px*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*styles the a of li elements in header - removes automatic link line from text*/
+a {
+    color: rgb(110, 107, 178);
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
