@@ -240,7 +240,7 @@ p {
     text-decoration-line: underline;
 }
 .pp {
-    position: absolute; /* Remove absolute positioning for smaller screens */
+    position: absolute;
     margin-bottom: 20px; /* Add margin to separate profile picture on smaller screens */
     width: 160px; /* Adjust width for smaller screens */
     height: 160px; /* Adjust height for smaller screens */
