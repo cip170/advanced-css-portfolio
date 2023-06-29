@@ -106,7 +106,7 @@ p {
     height: 500px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: URL("assets/css/image/background-image1.jpg")
+    background-image: URL("./assets/images/background-image1.jpg")
     background-size: cover;
     background-position: center;
 }
